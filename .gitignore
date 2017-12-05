@@ -5,6 +5,6 @@ log
 config.py
 uwsgi.ini
 uwsgi_params
-static
+static/
 .python-version
 .DS_Store

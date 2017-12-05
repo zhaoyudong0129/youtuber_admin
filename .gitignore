@@ -1,0 +1,10 @@
+*.py[cod]
+.idea/
+log
+*.sql
+config.py
+uwsgi.ini
+uwsgi_params
+static
+.python-version
+.DS_Store

@@ -9,3 +9,6 @@ echo "***start collectstatic***"
 python manage.py collectstatic
 echo "***restart miracle***"
 supervisorctl -c dev/supervisord.conf restart youtuber
+
+cp dev/nginx.conf /etc/nginx/nginx.conf
+nginx -s reload

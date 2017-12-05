@@ -127,4 +127,4 @@ try:
 except Exception as e:
     pass
 
-DEBUG = True if os.environ.get('DEBUG', str(DEBUG)) == 'True' else False
+DEBUG = True if os.environ.get('DEBUG', str(DEBUG)) in ['True', 'true', 'TRUE'] else False

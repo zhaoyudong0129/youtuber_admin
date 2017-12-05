@@ -7,8 +7,8 @@ echo "***start migrate ***"
 python manage.py migrate
 echo "***start collectstatic***"
 python manage.py collectstatic
-echo "***restart miracle***"
+echo "***restart youtuber***"
 supervisorctl -c dev/supervisord.conf restart youtuber
-
+echo "***restart nginx***"
 cp dev/nginx.conf /etc/nginx/nginx.conf
 nginx -s reload

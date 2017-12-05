@@ -8,3 +8,5 @@ DATABASES = {
         'HOST': '45.79.100.193',
     }
 }
+
+DEBUG = False

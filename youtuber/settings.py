@@ -126,5 +126,3 @@ try:
         exec(code, globals())
 except Exception as e:
     pass
-
-DEBUG = True if os.environ.get('DEBUG', str(DEBUG)) in ['True', 'true', 'TRUE'] else False

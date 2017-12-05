@@ -25,7 +25,7 @@ SECRET_KEY = 'm(qx5brr5&ez2glb)u^m36ox%iztv@0z_by-1&56a%)w4(*wpd'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['45.79.100.193']
 
 # Application definition
 

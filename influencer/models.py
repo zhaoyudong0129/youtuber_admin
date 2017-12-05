@@ -5,7 +5,7 @@ from django.db import models
 
 class Influencer(models.Model):
     object_url_id = models.CharField(max_length=50, unique=True, primary_key=True)
-    name = models.CharField(max_length=200, blank=True, null=True)
+    name = models.CharField(x_length=200, blank=True, null=True)
     url = models.CharField(max_length=200, blank=True, null=True)
     email = models.CharField(max_length=200, blank=True, null=True)
     register_date = models.DateField(blank=True, null=True)

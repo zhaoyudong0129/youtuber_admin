@@ -13,7 +13,7 @@ django-model-utils==2.6
 django-money==0.12
 django-oauth-toolkit==0.11.0
 django-rest-framework-social-oauth2==1.0.4
-djangorestframework==3.5.3
+djangorestframework==3.9.1
 djangorestframework-camel-case==0.2.0
 djangorestframework-word-filter==0.1.1
 docutils==0.14
